@@ -21,6 +21,15 @@ class Main extends React.Component {
             ],
             journalism: [
                 {
+                    caption: '用koa开发一套内容管理系统（CMS），支持javascript和typescript双语言',
+                    details: '初衷 lin-cms是我们林间有风团队开源的一款CMS，它采用目前主流的前后端分离的架构，前端使用vue作为基础框架，后端选择了我们团队大量实践...',
+                    member: 3.7,
+                    username: 'pedro_37dc',
+                    comment: 4,
+                    loving_heart: 34,
+                    imgurl: require('../../assets/timg6.png')
+                },
+                {
                     caption: '此菜吃一次，就等于给肠胃做一次大扫除，营养好吃，做法特简单',
                     details: '今天就来跟大家分享这道《淮山炒云耳》，说道淮山我们就要明白一点，淮山并不是山药，这两种食材是有区别的，一般我们生活中常见的就是山药，削皮之后...',
                     member: 11.9,

@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.main{
+    width: 620px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 55px;
+}
+.h1{
+    font-weight: bold;
+    margin-bottom: 0em;
+    font-size: 33px;
+}
+.one{
+    padding-top: 36px;
+}
+.user,.touxiang{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.xinxi{
+    padding-left: 14px;
+}
+.jd{
+    cursor: pointer;
+}
+.name{
+    font-size: 13px;
+    color: #333333;
+}
+.attention{
+    display: inline-block;
+    width: 52px;
+    height: 18px;
+    background: #42c02e;
+    border-radius: 10px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+    margin-left: 8px;
+}
+.attention_bottom{
+    font-size: 11px;
+    color: #969696;
+    padding-top: 8px;
+    margin-bottom: 0em;
+}
+.jg{
+    padding-left: 8px;
+}
+.two{
+    padding-top: 40px;
+}
+.paragraph{
+    font-size: 16px;
+    line-height: 28px;
+    color: #2f2f2f;
+}
+.picture{
+    width: 620px;
+}
+.photograph{
+    width: 500px;
+    height: 334px;
+    margin: 24px auto;
+    display: block;
+}
+.active{
+    font-weight: 600;
+}
+.three{
+    width: 620px;
+    margin-top: 49px;
+    margin-bottom: 100px;
+}
+.bottom{
+    font-size: 17px;
+    font-weight: 600;
+    color: #969696;
+    text-align: center;
+}
+.zan{
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ea6f5a;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+.support{
+    font-size: 15px;
+    color: #fff;
+    line-height: 40px;
+}
+.zan:hover{
+    background: #ec6149;
+}
+.four{
+    font-size: 11px;
+    color: #c8c8c8;
+}
+.diary{
+    padding-left: 10px;
+    float: left;
+    cursor: pointer;
+}
+.copyright{
+    float: right;
+    padding-left: 20px;
+}
+.inform{
+    float: right;
+    cursor: pointer;
+}

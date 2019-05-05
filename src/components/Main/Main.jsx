@@ -21,12 +21,12 @@ class Main extends React.Component {
             ],
             journalism: [
                 {
-                    caption: '用koa开发一套内容管理系统（CMS），支持javascript和typescript双语言',
-                    details: '初衷 lin-cms是我们林间有风团队开源的一款CMS，它采用目前主流的前后端分离的架构，前端使用vue作为基础框架，后端选择了我们团队大量实践...',
+                    caption: '如何参悟Java的三大框架',
+                    details: '大数据时代，中国IT环境也将面临重新洗牌，不仅仅是企业，更是程序员们转型可遇而不可求的机遇。 Java是世界第一编程语言，这已经达成共识，是毋庸...',
                     member: 3.7,
-                    username: 'pedro_37dc',
-                    comment: 4,
-                    loving_heart: 34,
+                    username: '墨雨轩夏',
+                    comment: 5,
+                    loving_heart: 23,
                     imgurl: require('../../assets/timg6.png')
                 },
                 {

@@ -64,9 +64,54 @@ class UserDetails extends React.Component{
                         </p>
                     </div>
                     <div className={`${css.four} ${css.clearfix}`}>
-                        <span className={css.diary}>日记本</span>
+                        <span className={css.diary}>
+                            <i className={`${"iconfont"} ${css.book}`}>&#xe662;</i>日记本
+                        </span>
                         <span className={css.copyright}>© 著作权归作者所有</span>
                         <span className={css.inform}>举报文章</span>
+                    </div>
+                    <div className={css.writer}>
+                        <div className={css.writer_box}>
+                            <div className={`${css.writer_top} ${css.clearfix}`}>
+                                <div className={css.fl}>
+                                    <img src={require("../../assets/timg6.png")} className={css.touxiang} alt=""/>
+                                </div>
+                                <div className={`${css.fl} ${css.writer_r}`}>
+                                    <p className={`${css.name} ${css.writer_name}`}>墨雨轩夏</p>
+                                    <p className={css.attention_bottom}>写了
+                                        <span> 286898 </span>字，被
+                                        <span> 2179 </span>人关注，获得了
+                                        <span> 1978 </span>个喜欢
+                                    </p>
+                                </div>
+                                <p className={`${css.fr} ${css.gz}`}>
+                                    <span className={css.zt}>
+                                        <i className={`${css.zt} ${css.plus}`}> + </i>关注
+                                    </span>
+                                </p>
+                            </div>
+                            <p className={css.last}>长征路上的Java程序员，每天分享Java知识点。每天让梦想更近一些......感兴趣的小伙伴欢迎加入编程学习...</p>
+                        </div>
+                    </div>
+                    <div className={`${css.like} ${css.clearfix}`}>
+                        <p className={`${css.praise_like} ${css.fl}`}>
+                            <span className={css.xh}>
+                                <i className={`${"iconfont"} ${css.jl}`}>&#xe61c;</i>
+                                <span className={css.jl}>喜欢</span>
+                                <i className={css.jl}> | </i>
+                                <span>23</span>
+                            </span>
+                        </p>
+                        <p className={css.more_gd}>更多分享</p>
+                        <p className={css.wx}>
+                            <i className={`${"iconfont"} ${css.zp_tb}`}>&#xe674;</i>
+                        </p>
+                        <p className={css.wx}>
+                            <i className={`${"iconfont"} ${css.xl_tb}`}>&#xe62f;</i>
+                        </p>
+                        <p className={css.wx}>
+                            <i className={`${"iconfont"} ${css.wx_tb}`}>&#xe7e5;</i>
+                        </p>
                     </div>
                 </div>
             </main>

@@ -103,6 +103,9 @@ class Main extends React.Component {
                 }
             ]
         }
+    };
+    toUserDetails(){
+        window.location.href = '#/userlist'
     }
     render() {
         return (
@@ -123,7 +126,7 @@ class Main extends React.Component {
                                 this.state.journalism.map((item, index) => {
                                     return <div className={Style.message} key={index}>
                                                 <div className={Style.message_text}>
-                                                    <h3>{item.caption}</h3>
+                                                    <h3 onClick={this.toUserDetails.bind(this)}>{item.caption}</h3>
                                                     <p className={Style.text_main}>{item.details}</p>
                                                     <div className={Style.beta}>
                                                         <span className={Style.zs}>

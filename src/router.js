@@ -1,9 +1,12 @@
 import React from 'react';
+// 路由
 import { Router, Route, Switch, Redirect } from 'dva/router';
 // import IndexPage from './routes/IndexPage/IndexPage';
+// 页面组件
 import Index from './routes/JianShu/IndexPage/Index';
 import UserList from './routes/JianShu/UserList/UserList';
 
+// 函数组件
 function RouterConfig({ history }) {
   return (
     <Router history={history}>

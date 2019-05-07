@@ -6,14 +6,17 @@ class Header extends React.Component {
         this.state = {
             title: ''
         }
+    };
+    toBack(){
+        window.location.href = "#/index"
     }
     render(){
         return(
             <header className={styles.header}>
                 <div className={styles.box}>
-                    <span className={styles.text}>简书</span>
+                    <span className={styles.text} onClick={this.toBack.bind(this)}>简书</span>
                     <div className={styles.box_center}>
-                        <div className={styles.one}>
+                        <div className={styles.one} onClick={this.toBack.bind(this)}>
                             <i className={`${"iconfont"} ${styles.fx}`}>&#xe746;</i>
                             <span className={styles.sy}>首页</span>
                         </div>

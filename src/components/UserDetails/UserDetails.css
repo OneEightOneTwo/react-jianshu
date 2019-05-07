@@ -126,11 +126,141 @@
     float: left;
     cursor: pointer;
 }
+.book{
+    padding-right: 6px;
+}
 .copyright{
     float: right;
     padding-left: 20px;
 }
 .inform{
     float: right;
+    cursor: pointer;
+}
+.writer{
+    width: 618px;
+    border: 1px solid #ebebeb;
+    background: #f7f7f7;
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.writer_box{
+    height: 102px;
+}
+.writer_r{
+    padding-left: 11px;
+}
+.writer_name{
+    margin-bottom: 0em;
+    cursor: pointer;
+}
+.writer_top{
+    padding-bottom: 21px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.gz{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background: #42c02e;
+    text-align: center;
+    margin-bottom: 0em;
+}
+.gz:hover{
+    background: #3db922;
+    cursor: pointer;
+}
+.zt{
+    display: inline-block;
+    line-height: 38px;
+    font-size: 15px;
+    color: #fff;
+}
+.plus{
+    padding-right: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.last{
+    font-size: 11px;
+    color: #969696;
+    margin-top: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.like{
+    width: 620px;
+    padding-top: 40px;
+}
+.praise_like{
+    width: 174px;
+    height: 58px;
+    border-radius: 30px;
+    border: 1px solid #ea6f5a;
+    background: #fff;
+    text-align: center;
+    margin-bottom: 0em;
+    cursor: pointer;
+}
+.praise_like:hover{
+    background: #fef7f6;
+    cursor: pointer;
+}
+.xh{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 55px;
+    color: #ea6f5a;
+}
+.jl{
+    margin-right: 10px;
+}
+.wx{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 0em;
+}
+.wx:hover{
+    background: #f7f7f7;
+    cursor: pointer;
+}
+.wx_tb{
+    font-size: 20px;
+    color: #00bb29;
+    line-height: 50px;
+}
+.xl_tb{
+    font-size: 20px;
+    line-height: 50px;
+    color: #e05244;
+}
+.zp_tb{
+    font-size: 20px;
+    line-height: 50px;
+    color: #9b9b9b;
+}
+.more_gd{
+    float: right;
+    width: 92px;
+    height: 48px;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 48px;
+    color: #9b9b9b;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.more_gd:hover{
+    background: #f7f7f7;
     cursor: pointer;
 }

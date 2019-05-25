@@ -3,12 +3,18 @@ import styles from './Header.css'
 class Header extends React.Component {
     constructor(props){
         super(props);
-        this.state = {
-            title: ''
+        this.state = {}
+        this.state.setMenuNum=(num)=>{
+            return()=>{
+                props.callback(num)
+            }
         }
     };
     toBack(){
         window.location.href = "#/index"
+    }
+    toSign(){
+        window.location.href = "#/sign"
     }
     render(){
         return(
@@ -38,7 +44,7 @@ class Header extends React.Component {
                         </div>
                     </div>
                     <div className={styles.box_r}>
-                        <div className={styles.reg}>
+                        <div onClick={this.toSign.bind(this)} className={styles.reg}>
                             <p className={styles.reg_text}>注册</p>
                         </div>
                         <p className={styles.login}>
